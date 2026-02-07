@@ -1,1 +1,53 @@
-Page test pour le portfolio
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio Professionnel</title>
+</head>
+<body class="bg-[#0f172a] text-white font-sans antialiased">
+
+    <nav class="flex justify-between items-center px-10 py-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tight">
+            Nicolas<span class="text-blue-400">.infra</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-gray-300 items-center">
+            <a href="#" class="hover:text-white transition">Accueil</a>
+            <a href="#" class="hover:text-white transition">Parcours</a>
+            <a href="#" class="hover:text-white transition">Projets</a>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-lg font-medium transition">
+                Me Contacter
+            </a>
+        </div>
+    </nav>
+
+    <main class="flex flex-col justify-center min-h-[80vh] px-10 max-w-7xl mx-auto">
+        
+        <p class="text-blue-400 font-bold uppercase tracking-widest text-sm mb-4">
+            Sysadmin & Automatisation
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight max-w-4xl">
+            Construire des infrastructures robustes et <span class="text-blue-400">automatisées.</span>
+        </h1>
+
+        <p class="text-gray-400 mt-8 text-lg max-w-2xl leading-relaxed">
+            Spécialisé dans le déploiement Ansible, la gestion Linux et l'orchestration Cloud. 
+            Je transforme des tâches manuelles complexes en code fiable et maintenable.
+        </p>
+
+        <div class="flex space-x-4 mt-10">
+            <a href="#" class="bg-blue-400 hover:bg-blue-500 text-gray-900 font-bold py-3 px-8 rounded-lg flex items-center transition">
+                Voir mes projets <span class="ml-2">→</span>
+            </a>
+            <a href="#" class="border border-gray-700 bg-[#162033] hover:bg-gray-800 py-3 px-8 rounded-lg flex items-center transition">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-5 h-5 invert mr-2" alt="GitHub">
+                GitHub
+            </a>
+        </div>
+
+    </main>
+
+</body>
+</html>
